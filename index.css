@@ -1,0 +1,107 @@
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2/distr/fira_code.css);
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+:root {
+  background-color: #2d2d2d !important;
+}
+
+body {
+  background-color: #2d2d2d;
+  font-family: courier, monospace;
+  color: #e0e0e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+p {
+  line-height: 1.2;
+}
+
+.container {
+  width: 800px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 18px;
+  cursor: text;
+}
+
+.Typewriter__wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.Typewriter__wrapper #server {
+  color: #00e000;
+}
+
+.Typewriter__wrapper #folder {
+  -webkit-column-count: 2;
+          column-count: 2;
+}
+
+.Typewriter__wrapper #path, .Typewriter__wrapper #folder {
+  color: dodgerblue;
+}
+
+.Typewriter__wrapper a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+.Typewriter__wrapper form {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Typewriter__wrapper form input {
+  border: none;
+  outline: 0;
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+  font-family: courier, monospace;
+  font-size: 18px;
+}
+
+.Typewriter__wrapper form input input:focus {
+  color: #e0e0e0;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #414141;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Fira Code', monospace;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer .content a {
+  color: #e0e0e0;
+  font-weight: 700;
+  text-decoration: none;
+}
+/*# sourceMappingURL=index.css.map */
